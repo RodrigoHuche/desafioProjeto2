@@ -1,4 +1,4 @@
-package one.dio.gof;
+package one.dio.gof.singeton;
 
 public class Test {
     public static void main(String[] args) {

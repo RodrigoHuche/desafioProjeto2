@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04f715ea-476f-4c83-98a4-beb2f0d99ab4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesafioProjeto2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/one/dio/gof/SingletonEager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/one/dio/gof/SingletonLazy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/one/dio/gof/SingletonLazyHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/one/dio/gof/Test.java" afterDir="false" />
+    <list default="true" id="04f715ea-476f-4c83-98a4-beb2f0d99ab4" name="Changes" comment="Criação do Projeto + titpos de Singleton">
+      <change beforePath="$PROJECT_DIR$/src/one/dio/gof/SingletonEager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/one/dio/gof/singeton/SingletonEager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/one/dio/gof/SingletonLazy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/one/dio/gof/singeton/SingletonLazy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/one/dio/gof/SingletonLazyHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/one/dio/gof/singeton/SingletonLazyHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/one/dio/gof/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/one/dio/gof/singeton/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,11 +44,11 @@
   </component>
   <component name="RunManager">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="one.dio.gof.Test" />
+      <option name="MAIN_CLASS_NAME" value="one.dio.gof.singeton.Test" />
       <module name="DesafioProjeto2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="one.dio.gof.*" />
+          <option name="PATTERN" value="one.dio.gof.singeton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,7 +58,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.one.dio.gof.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -77,6 +71,14 @@
       <option name="presentableId" value="Default" />
       <updated>1653618420532</updated>
     </task>
+    <task id="LOCAL-00001" summary="Criação do Projeto + titpos de Singleton">
+      <created>1653621889873</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653621889873</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -89,5 +91,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Criação do Projeto + titpos de Singleton" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criação do Projeto + titpos de Singleton" />
   </component>
 </project>
