@@ -1,6 +1,7 @@
-import one.dio.gof.singeton.SingletonEager;
-import one.dio.gof.singeton.SingletonLazy;
-import one.dio.gof.singeton.SingletonLazyHolder;
+import Facade.Facade;
+import singleton.SingletonEager;
+import singleton.SingletonLazy;
+import singleton.SingletonLazyHolder;
 import strategy.*;
 
 public class Test {
@@ -23,6 +24,7 @@ public class Test {
         holder = SingletonLazyHolder.getInstancia();
         System.out.println(holder);
 
+
         // Strategy
         Comportamento normal = new ComportamentoNormal();
         Comportamento defensivo = new ComportamentoDefensivo();
@@ -41,6 +43,10 @@ public class Test {
         robo.setComportamento(autodestruir);
         robo.mover();
 
+        //Facede
+
+        Facade facade = new Facade();
+        facade.migrarCliente("Rodrigo", "15556666");
 
 
     }

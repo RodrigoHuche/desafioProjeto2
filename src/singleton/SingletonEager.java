@@ -1,4 +1,4 @@
-package one.dio.gof.singeton;
+package singleton;
 
 public class SingletonEager {
 
