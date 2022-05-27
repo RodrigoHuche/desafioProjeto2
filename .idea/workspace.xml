@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04f715ea-476f-4c83-98a4-beb2f0d99ab4" name="Changes" comment="Strategy + Robo + implementos">
-      <change afterPath="$PROJECT_DIR$/src/Facade/Facade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/subsistema1/crm/CrmService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/subsistema2/cep/CepApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/one/dio/gof/singeton/SingletonEager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/singleton/SingletonEager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/one/dio/gof/singeton/SingletonLazy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/singleton/SingletonLazy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/one/dio/gof/singeton/SingletonLazyHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/singleton/SingletonLazyHolder.java" afterDir="false" />
+    <list default="true" id="04f715ea-476f-4c83-98a4-beb2f0d99ab4" name="Changes" comment="Facade">
+      <change afterPath="$PROJECT_DIR$/.mvn/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/one/dio/gof/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/one/dio/gof/controller/ClienteRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/one/dio/gof/model/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/one/dio/gof/model/ClienteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/one/dio/gof/model/Endereco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/one/dio/gof/model/EnderecoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/one/dio/gof/service/ClienteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/one/dio/gof/service/ViaCepService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/one/dio/gof/service/impl/ClienteServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,10 +48,19 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "jdk.selected.JAVA_MODULE": "openjdk-18",
+    "last_opened_file_path": "/home/fox/IdeaProjects/DesafioProjeto2/src",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/.mvn" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="strategy" />
       <recent name="one.dio.gof" />
@@ -100,7 +116,21 @@
       <option name="project" value="LOCAL" />
       <updated>1653626380471</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Facade">
+      <created>1653633380496</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1653633380496</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Facade">
+      <created>1653633408843</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1653633408844</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -118,6 +148,7 @@
     <MESSAGE value="Criação do Projeto + titpos de Singleton" />
     <MESSAGE value="Organizando em pacotes" />
     <MESSAGE value="Strategy + Robo + implementos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Strategy + Robo + implementos" />
+    <MESSAGE value="Facade" />
+    <option name="LAST_COMMIT_MESSAGE" value="Facade" />
   </component>
 </project>
