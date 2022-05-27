@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04f715ea-476f-4c83-98a4-beb2f0d99ab4" name="Changes" comment="Criação do Projeto + titpos de Singleton">
-      <change beforePath="$PROJECT_DIR$/src/one/dio/gof/SingletonEager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/one/dio/gof/singeton/SingletonEager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/one/dio/gof/SingletonLazy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/one/dio/gof/singeton/SingletonLazy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/one/dio/gof/SingletonLazyHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/one/dio/gof/singeton/SingletonLazyHolder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/one/dio/gof/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/one/dio/gof/singeton/Test.java" afterDir="false" />
+    <list default="true" id="04f715ea-476f-4c83-98a4-beb2f0d99ab4" name="Changes" comment="Organizando em pacotes">
+      <change afterPath="$PROJECT_DIR$/src/strategy/Comportamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategy/ComportamentoAgressivo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategy/ComportamentoAutoDestruir.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategy/ComportamentoDefensivo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategy/ComportamentoNormal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategy/Robo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/one/dio/gof/singeton/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +19,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
+        <option value="module-info" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -39,16 +46,17 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="strategy" />
       <recent name="one.dio.gof" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="one.dio.gof.singeton.Test" />
+      <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="DesafioProjeto2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="one.dio.gof.singeton.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653621889873</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Organizando em pacotes">
+      <created>1653622485979</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653622485979</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -94,6 +109,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Criação do Projeto + titpos de Singleton" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criação do Projeto + titpos de Singleton" />
+    <MESSAGE value="Organizando em pacotes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Organizando em pacotes" />
   </component>
 </project>
